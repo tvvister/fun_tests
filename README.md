@@ -15,8 +15,10 @@ The comparison focuses on two approaches:
    - Uses `collections.deque` as the queue
    - Implements multitasking using two threads (one producer, one consumer)
    - Satisfies the multitasking requirement through threading
+
 [`sync.py`](./sync.py#L8-L22):
 ```python
+# Snippet will appear here when viewed on GitHub
 
 2. **Asynchronous Version**:
    - Uses `asyncio.Queue` as the queue
