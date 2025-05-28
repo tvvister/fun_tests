@@ -9,7 +9,7 @@ def main_with_deque():
         'handle_deque',
         timeit.timeit(
             'handle_deque()',
-            setup='from deque_vs_aioqueue import handle_deque',
+            setup='from sync import handle_deque',
             number=NUMBER,
         ),
     )
@@ -17,7 +17,7 @@ def main_with_deque():
 
 def main_with_asyncio_queue():
     setup_code = """
-from deque_vs_aioqueue import handle_asyncio_queue
+from async_impl import handle_asyncio_queue
 from asyncio import run
     """
     print(

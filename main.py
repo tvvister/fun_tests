@@ -1,5 +1,7 @@
 from asyncio import run
-from deque_vs_aioqueue import handle_asyncio_queue, handle_deque
+
+from async_impl import handle_asyncio_queue
+from sync import handle_deque
 
 
 if __name__ == "__main__":
