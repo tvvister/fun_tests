@@ -16,7 +16,7 @@ The comparison focuses on two approaches:
    - Implements multitasking using two threads (one producer, one consumer)
    - Satisfies the multitasking requirement through threading
 
-https://github.com/tvvister/fun_tests/blob/main/sync.py#L8-L22
+https://github.com/tvvister/fun_tests/blob/d30f8994df96587a537451956cc59de8f72bcf54/sync.py#L8-L22
 
 
 2. **Asynchronous Version**:
