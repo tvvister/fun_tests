@@ -24,6 +24,8 @@ https://github.com/tvvister/fun_tests/blob/d30f8994df96587a537451956cc59de8f72bc
    - Leverages Python's native async/await syntax
    - Uses asyncio's built-in multitasking capabilities
 
+https://github.com/tvvister/fun_tests/blob/d30f8994df96587a537451956cc59de8f72bcf54/async_impl.py#L6-L19
+
 ## Initial Hypothesis
 
 Before testing, I hypothesized that the asyncio version would outperform the threaded version because:
