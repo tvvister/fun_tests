@@ -17,8 +17,7 @@ The comparison focuses on two approaches:
    - Satisfies the multitasking requirement through threading
 
 [`sync.py`](./sync.py#L8-L22):
-```python
-# Snippet will appear here when viewed on GitHub
+
 
 2. **Asynchronous Version**:
    - Uses `asyncio.Queue` as the queue
