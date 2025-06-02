@@ -18,7 +18,7 @@ The comparison focuses on two approaches:
    - Implements multitasking using two threads (one producer, one consumer)
    - Satisfies the multitasking requirement through threading
 
-https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cbdf9/sync_deque.py#L8-L22
+https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cbdf9/src/sync_deque.py#L8-L22
 
 
 2. **Asynchronous Version**:
