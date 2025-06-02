@@ -18,7 +18,7 @@ The comparison focuses on two approaches:
    - Implements multitasking using two threads (one producer, one consumer)
    - Satisfies the multitasking requirement through threading
 
-https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cbdf9/src/sync_deque.py#L8-L22
+https://github.com/tvvister/fun_tests/blob/88dde982ef4020b170086399af91cda94ab989de/src/sync_deque.py#L8-L22
 
 
 2. **Asynchronous Version**:
@@ -26,7 +26,7 @@ https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cb
    - Leverages Python's native async/await syntax
    - Uses asyncio's built-in multitasking capabilities
 
-https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cbdf9/src/async_impl.py#L6-L19
+https://github.com/tvvister/fun_tests/blob/88dde982ef4020b170086399af91cda94ab989de/src/async_impl.py#L6-L19
 
 ## Initial Hypothesis
 
@@ -76,7 +76,7 @@ Only supports FIFO operations (no appendleft or popleft).
 
 Use Case: When you need a simple, thread-safe queue for communication between threads
 
-https://github.com/tvvister/fun_tests/blob/1d651cb8f1b31b8a2b36242a5aca67f7733cbdf9/src/sync_queue.py#L7-L22
+https://github.com/tvvister/fun_tests/blob/88dde982ef4020b170086399af91cda94ab989de/src/sync_queue.py#L7-L21
 
 ## 3... 2... 1... uv run   !!!
 ```bash
