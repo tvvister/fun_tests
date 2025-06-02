@@ -15,6 +15,17 @@ def main_with_deque():
     )
 
 
+def main_with_simple_queue():
+    print(
+        'handle_simple_queue',
+        timeit.timeit(
+            'handle_simple_queue()',
+            setup='from sync_queue import handle_simple_queue',
+            number=NUMBER,
+        ),
+    )
+
+
 def main_with_asyncio_queue():
     setup_code = """
 from async_impl import handle_asyncio_queue
@@ -33,3 +44,4 @@ from asyncio import run
 if __name__ == "__main__":
     main_with_deque()
     main_with_asyncio_queue()
+    main_with_simple_queue()
