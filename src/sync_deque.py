@@ -14,11 +14,14 @@ def consume(q: Deque[int | None]):
                 res += el
             else:
                 break
+        # sleep(0.05)
 
 
 def send(q: Deque[int | None], task_count: int):
     for el in range(task_count):
         q.append(el)
+    q.append(None)
+    q.append(None)
     q.append(None)
 
 
@@ -27,3 +30,5 @@ def handle_deque(task_count: int = TASK_COUNT):
     with ThreadPoolExecutor(max_workers=2) as executer:
         executer.submit(send, q, task_count)
         executer.submit(consume, q)
+        # executer.submit(consume, q)
+        # executer.submit(consume, q)
