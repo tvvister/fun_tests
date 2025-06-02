@@ -13,7 +13,6 @@ def consume(q: SimpleQueue[int | None]):
                 res += el
             else:
                 break
-        # sleep(0.05)
 
 
 def send(q: SimpleQueue[int | None], task_count: int):
