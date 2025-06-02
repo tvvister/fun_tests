@@ -14,14 +14,11 @@ def consume(q: Deque[int | None]):
                 res += el
             else:
                 break
-        # sleep(0.05)
 
 
 def send(q: Deque[int | None], task_count: int):
     for el in range(task_count):
         q.append(el)
-    q.append(None)
-    q.append(None)
     q.append(None)
 
 
